@@ -1,0 +1,23 @@
+/* ----------------------------------------------------
+   created with http://www.texturepacker.com 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:b2f874a087c71741635e18c0dc70ad8c$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:block; overflow:hidden; background-repeat: no-repeat;background-image:url(../../img/sprite/sprite.png);}
+
+.gfx_exp {width:289px; height:65px; background-position: -293px -578px}
+.gfx_noob {width:289px; height:65px; background-position: -2px -578px}
+.role_ani {width:286px; height:286px; background-position: -578px -290px}
+.role_gd {width:286px; height:286px; background-position: -290px -290px}
+.role_mock {width:286px; height:286px; background-position: -2px -290px}
+.role_pro {width:286px; height:286px; background-position: -668px -2px}
+.team_ivy {width:220px; height:260px; background-position: -446px -2px}
+.team_lix {width:220px; height:260px; background-position: -224px -2px}
+.team_mad {width:220px; height:260px; background-position: -2px -2px}

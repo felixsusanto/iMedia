@@ -1,10 +1,10 @@
-@import "compass/css3";
+@import 'compass';
 
-@import url(//fonts.googleapis.com/css?family=Lobster);
+/*@import url(//fonts.googleapis.com/css?family=Lobster);
 @import url(//fonts.googleapis.com/css?family=Medula+One);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300);
-@import url(//fonts.googleapis.com/css?family=Pacifico);
-@import url("../img/sprite/sprite.css");
+@import url(//fonts.googleapis.com/css?family=Pacifico);*/
+/*@import url("../img/sprite/sprite.css");*/
 
 $background:#F8F9F9;
 $emerald:#19BD9B;
@@ -157,7 +157,7 @@ BOOTSTRAP OVERRIDE
     margin-bottom: -0.15em;
   }
   h2{
-    font-family: 'Medula One', sans-serif;
+    font-family: 'Medula', sans-serif;
     text-transform: uppercase;
     font-size: 0.5em;
     margin-top:0;
@@ -473,3 +473,96 @@ BOOTSTRAP OVERRIDE
     @include text-shadow(0 -1px 0px rgba(0,0,0,0.6));
   }
 }
+
+
+/*FONT-FACE*/
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/lobster-webfont.eot');
+    src: url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster-webfont.woff') format('woff'),
+         url('../fonts/lobster-webfont.ttf') format('truetype'),
+         url('../fonts/lobster-webfont.svg#lobster_1.4regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Medula';
+    src: url('../fonts/medulaone-regular-webfont.eot');
+    src: url('../fonts/medulaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/medulaone-regular-webfont.woff') format('woff'),
+         url('../fonts/medulaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/medulaone-regular-webfont.svg#medula_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/pacifico-webfont.eot');
+    src: url('../fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pacifico-webfont.woff') format('woff'),
+         url('../fonts/pacifico-webfont.ttf') format('truetype'),
+         url('../fonts/pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+/*SPRITESHEET*/
+
+.sprite {display:block; overflow:hidden; background-repeat: no-repeat;background-image:url(../img/sprite/sprite.png);}
+.team_ivy {width:220px; height:260px; background-position: -446px -2px}
+.team_lix {width:220px; height:260px; background-position: -224px -2px}
+.team_mad {width:220px; height:260px; background-position: -2px -2px}
